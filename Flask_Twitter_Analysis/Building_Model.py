@@ -19,7 +19,7 @@ twitter_data['label'].value_counts()
 train, test = train_test_split(twitter_data, test_size=0.2, stratify=twitter_data['label'], random_state=10)
 
 train.shape
-test.shapeß
+test.shape
 
 train['label'].value_counts(normalize=True)
 test['label'].value_counts(normalize=True)
